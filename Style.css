@@ -1,0 +1,43 @@
+  
+body, html {
+    width: 100%;
+    height: 100%
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing:border-box;
+}
+.textbox{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #FBACBE;
+}
+.overall{
+    background-color: #B9D2B1;
+    display: flex;
+    flex-direction: column;
+}
+
+#sumbox{
+    display: flex;
+    justify-content: center;
+    border: 10px dotted #FBACBE;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 10px;
+}
